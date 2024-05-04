@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Eskişehir Teknik Üniversitesi hakkında bilgi. Kuruluş tarihi, yerleşkeler, fakülte ve birimler, öğrenci ve personel sayısı gibi detaylar.">
+    <meta name="keywords" content="Eskişehir Teknik Üniversitesi, ETÜ, üniversite, Eskişehir, eğitim, öğrenci, personel">
+    <meta name="author" content="Eskişehir Teknik Üniversitesi">
+
+    <!-- Open Graph (Facebook) ve Twitter Card metadata -->
+    <meta property="og:title" content="University Page - Eskişehir Teknik Üniversitesi">
+    <meta property="og:description" content="Eskişehir Teknik Üniversitesi hakkında bilgi. Kuruluş tarihi, yerleşkeler, fakülte ve birimler, öğrenci ve personel sayısı gibi detaylar.">
+    <meta property="og:image" content="university.jpg">
+    <meta property="og:url" content="https://example.com/university.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="University Page - Eskişehir Teknik Üniversitesi">
+    <meta name="twitter:description" content="Eskişehir Teknik Üniversitesi hakkında bilgi. Kuruluş tarihi, yerleşkeler, fakülte ve birimler, öğrenci ve personel sayısı gibi detaylar.">
+    <meta name="twitter:image" content="university.jpg">
+    <title>University Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS kodları buraya */
+        #uni-image {
+            width: 100%;
+            height: auto;
+            transition: opacity 0.3s ease-in-out; /* geçiş efekti */
+        }
+
+        #uni-image:hover {
+            opacity: 0.8; /* hover olduğunda opaklık azalacak */
+        }
+
+        #show-more-less {
+            margin-top: 20px;
+        }
+        .rotate {
+            transition: transform 2s;
+        }
+        .rotate:hover {
+            transform: rotate(60deg);
+            background-color: #f8f9fa; /* Açık renk arka plan */
+            color: #212529; /* Açık renk metin */
+        }
+        .expand {
+            max-height: 500px; /* Tüm metin gösterilecek */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Navigational bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+                <div class="container-fluid">
+                    <!-- Logo -->
+                    <a class="navbar-brand" href="#">
+                        <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="University Logo">
+                        Eskişehir Teknik Üniversitesi
+                    </a>
+                    <!-- Navbar toggler button -->
+                    <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- Navbar links -->
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item selected">
+                            <a class="nav-link active " aria-current="page" href="university.html" style="font-size: 20px;">University</a>
+                           </li>
+
+                            <li class="nav-item ">
+                                <a class="nav-link " href="academics.html">Academics</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="students.html">Students</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="campuslife.html">Campus Life</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item 
+                            ">
+                                <a class="nav-link " href="documents.html">Documents</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- University Information -->
+        <div class="mt-4 text-center p-3">
+            <h1 class="mt-4">Hakkımızda</h1>
+            <div id="uni-info"><p >18 Mayıs 2018 tarih ve 30425 sayılı Resmî Gazete’de yayımlanan 7141 sayılı Kanun ile kurulan Eskişehir Teknik Üniversitesi, bilim, kültür ve aynı zamanda bir gençlik kenti olan Eskişehir’in merkezinde yer alan 3 yerleşkede 5 Fakülte, 2 Meslek Yüksekokulu, 1 Yüksekokul ve 3 Enstitü ve 6 Araştırma ve Uygulama Merkezi’nden oluşmaktadır. Eskişehir Teknik Üniversitesi, eğitim öğretim ve araştırma faaliyetlerini yürüttüğü güçlü altyapıya sahip birimlerinde, her biri alanındaki gelişmeleri takip eden ve tüm zamanını öğrencileriyle paylaşan yetkin öğretim kadrosuyla, öğrencilerini yaratıcı ve dinamik eğitim ortamlarında, geleceğe en donanımlı ve rekabet edebilir bireyler olarak hazırlamak üzere çalışmaktadır. Üniversitemiz 2 Eylül Yerleşkesinde bulunan uluslararası Hasan Polatkan Havalimanının işletmesi Havacılık ve Uzay Bilimleri Fakültemiz tarafından yürütülmektedir. Hasan Polatkan Havalimanına haftanın çeşitli günlerinde farklı havayolu şirketleri tarafından gerçekleştirilen uluslararası uçuşlar bulunmaktadır.</p>
+            <h2>Numbers of Students and Staff</h2>
+            <p class="expand">
+                Üniversitemizdeki öğrenci ve personel sayıları hakkında bazı temel bilgiler şunlardır:
+                <ul class="list-unstyled">
+                    <li>Öğrenci Sayısı: 15,000</li>
+                    <li>Akademik Personel Sayısı: 1,200</li>
+                    <li>İdari Personel Sayısı: 500</li>
+                </ul>
+            </p>
+            <h2>Administrative Units</h2>
+            <p class="expand ">
+                Üniversitemizdeki bazı yönetim birimleri şunlardır:
+                <ul class="list-unstyled">
+                    <li>Rektörlük</li>
+                    <li>Genel Sekreterlik</li>
+                    <li>Öğrenci İşleri Daire Başkanlığı</li>
+                    <li>Personel Daire Başkanlığı</li>
+                    <li>Bilgi İşlem Daire Başkanlığı</li>
+                    <li>Finans Daire Başkanlığı</li>
+                </ul>
+            </p></div>
+            
+            <button id="show-more-less" onclick="toggleText()" class="btn btn-dark rotate">Show More</button>
+        </div>
+        <!-- University Image -->
+        <img src="university.jpg" alt="University Image" id="uni-image" class="mt-4  border  shadow-xxl d-block w-25 mx-auto" style="margin-bottom: 100px;" >
+    </div>
+    <!-- Footer -->
+    <footer class="fixed-bottom bg-light " >
+        <div class="container text-center py-3 ">
+            <p>&copy; 2024 University. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- JavaScript kodları buraya -->
+    <script>
+        // JavaScript kodları buraya
+        function toggleText() {
+            var buttonText = document.getElementById("show-more-less");
+            var moreText = document.getElementById("uni-info");
+            if (moreText.style.display === "none" || moreText.style.display === "") {
+                moreText.style.display = "block";
+                buttonText.innerHTML = "Show Less";
+            } else {
+                moreText.style.display = "none";
+                buttonText.innerHTML = "Show More";
+            }
+        }
+    </script>
+</body>
+</html>

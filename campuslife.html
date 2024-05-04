@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Life Page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* CSS kodları buraya */
+    </style>
+    <meta name="description" content="Eskişehir Teknik Üniversitesi kampüs yaşamı sayfası. Kütüphane, spor olanakları, öğrenci kulüpleri, ulaşım hizmetleri ve rehberlik merkezi hakkında bilgiler içerir.">
+    <meta name="keywords" content="Eskişehir Teknik Üniversitesi, ETÜ, kampüs yaşamı, kütüphane, spor olanakları, öğrenci kulüpleri, ulaşım hizmetleri, rehberlik merkezi">
+    <meta name="author" content="Eskişehir Teknik Üniversitesi">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- Navigational bar -->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"> <img src="logo.png" width="30" height="30" class="d-inline-block align-top" alt="University Logo">
+                        Eskişehir Teknik Üniversitesi</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item ">
+                                <a class="nav-link " aria-current="page" href="home.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="university.html">University</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link " href="academics.html" 
+                                ">Academics</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="students.html">Students</a>
+                            </li>
+                            <li class="nav-item selected">
+                                <a class="nav-link active" href="campuslife.html" style="font-size: 20px;">Campus Life</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="documents.html">Documents</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+        </header>
+        <!-- Campus Life Video -->
+        <h1>Campus Life</h1>
+        <iframe  style="width: 500px; height: 500px; margin-top: 1.5em; " width="843" height="474" src="https://www.youtube.com/embed/hhTjUc7ivoc" title="ESTÜ Tanıtım Filmi (English)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+         <h3 id="documents">Kampüste Yaşam </h3>
+         <h6>Detaylara aşağıdaki linklerden ulaşabilirsiniz.</h6>
+            <ul class="list-unstyled"><li><a  class="text-dark"    target="_blank" href="https://kdm.eskisehir.edu.tr/">Kütüphane</a></li>
+            <li><a class="text-dark" target="_blank"   href="https://www.eskisehir.edu.tr//Icerik/Detay/eskisehir-teknik-universitesi-spor-salonu">Spor Olanakları</a></li>
+            <li><a class="text-dark"   target="_blank"    href="https://www.eskisehir.edu.tr/tr/Icerik/Detay/fotografcilik-kulubu">Öğrenci Kulüpleri</a></li>
+            <li><a class="text-dark"     target="_blank" href="https://www.eskisehir.edu.tr//Icerik/Detay/ulasim">Ulaşım Hizmetleri</a></li>
+            <li><a  class="text-dark"     target="_blank"   href="https://pdr.eskisehir.edu.tr/">Rehberlik Merkezi</a></li></ul>
+        </div>
+        <aside><div id="myCarousel" class="carousel slide w-50  m-auto " data-bs-ride="carousel">
+    <div class="carousel-inner rounded  " style="margin-bottom: 100px;">
+        <div class="carousel-item active">
+            <img src="student3.jpeg" class="d-block w-100 img-fluid rounded shadow-xxl border p-4 zoom-on-hover d-flex mt-4
+            " alt="University Image 1">
+        </div>
+        <div class="carousel-item">
+            <img src="student2.jpg" class="d-block w-100 img-fluid rounded shadow-xxl border p-4 zoom-on-hover mt-4" alt="University Image 2">
+        </div>
+        <div class="carousel-item">
+            <img src="student1.jpeg" class="d-block w-100 img-fluid rounded shadow-xxl border p-4 zoom-on-hover mt-4  " alt="University Image 3">
+        </div>
+        <div class="carousel-item">
+            <img src="student5.jpeg" class="d-block w-100 img-fluid rounded shadow-xxl border p-4 zoom-on-hover mt-4  " alt="University Image 5">
+        </div>
+        <!-- Daha fazla fotoğraf ekleyebilirsiniz -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div></aside>
+    </div>
+    <!-- Footer -->
+   <footer class="fixed-bottom bg-light " >
+        <div class="container text-center py-3 ">
+            <p>&copy; 2024 University. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <!-- JavaScript kodları buraya -->
+</body>
+</html>

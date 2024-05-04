@@ -1,0 +1,16 @@
+.zoom-on-click:hover {
+        cursor: pointer;
+    }
+
+
+.zoom-on-hover:hover {
+        transform: scale(1.1); /* Increase size by 10% */
+        transition: transform 0.3s ease; /* Smooth transition */
+    }
+    /* Stil for selected tab */
+    .nav-item.selected a {
+        font-size: 1.2rem; /* Larger font size */
+    }
+
+
+ 
